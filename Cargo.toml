@@ -24,7 +24,7 @@ categories = [
 defmt = { version = "1.0.1", optional = true }
 log = { version = "0.4.27", optional = true }
 heapless = "0.8"
-embassy-sync = "0.7"
+embassy-sync = "0.8"
 
 [dev-dependencies]
 ekv = { path = ".", features = ["std", "log"]}

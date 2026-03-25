@@ -10,7 +10,7 @@ version = "0.1.0"
 embassy-executor = { version = "0.7.0",  features = ["defmt", "executor-thread", "arch-cortex-m"] }
 embassy-time = { version = "0.4.0",  features = ["defmt", "defmt-timestamp-uptime"] }
 embassy-rp = { version = "0.4.0",  features = ["rp2040", "defmt", "unstable-pac", "time-driver"] }
-embassy-sync = { version = "0.7.0" }
+embassy-sync = { version = "0.8.0" }
 embassy-futures = { version = "0.1.1" }
 
 defmt = "1"
